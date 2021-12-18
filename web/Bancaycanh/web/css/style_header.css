@@ -1,0 +1,254 @@
+:root{
+    --text-color:#585656;
+}
+
+.header_top{
+display: flex;
+background: #0b6e0b;
+padding: 10px 0 13px;
+}
+.header_top .header_admin{
+	display: flex;
+	justify-content: space-around;
+}
+.header_top a{
+	color:white !important;
+	
+}
+.header_top a i{
+	margin-right:5px
+}
+
+
+
+.header_language:hover ul {
+	top: calc(100% + 10px);
+    left: 30;
+    background: #fff;
+    width: 150px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.header_language:after {
+	position: absolute;
+	right: -21px;
+	top: 1px;
+	height: 20px;
+	width: 1px;
+	background: white;
+	opacity: 0.1;
+	content: "";
+}
+
+.header_language img {
+	margin-right: 6px;
+}
+
+.header_language div {
+	font-size: 14px;
+	color: white;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.header_language span {
+	font-size: 14px;
+	color: white;
+	position: relative;
+	top: 2px;
+}
+
+.header_language ul {
+	background: white;
+	width: 100px;
+	text-align: left;
+	padding: 5px 0;
+	position: absolute;
+	left: 0;
+	top: 43px;
+	z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all, 0.3s;
+	-moz-transition: all, 0.3s;
+	-ms-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.header_language ul li {
+	list-style: none;
+}
+
+.header_language ul li a {
+	font-size: 14px;
+	color:green !important;
+padding-left:10px;
+font-weight: 600;
+	padding: 5px 10px;
+}
+
+.cart a{
+	text-decoration:none;
+}
+.header_admin div a{
+	text-decoration:none;
+	color:white;
+}
+.header_admin div a:hover{
+	color:black;
+	opacity:1;	
+}
+/*  */
+.header_shop{
+    display: flex;
+    color: var(--text-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header_shop a:hover{
+    text-decoration:none;
+    opacity:1;
+    color:black;
+   
+}
+
+.logo-image-text-slogan{
+    display: flex;
+      align-items: center;
+
+}
+.site-title-wrap{
+    padding-left: 15px;
+}
+.site-title{
+    font-family: 'Marcellus SC'; 
+    font-size: 30px;
+    margin-bottom: 0;
+
+}
+.site-title a{
+    color: #327232 !important;
+    font-weight: 700;
+
+}
+.site-description{
+    margin: 0;
+    font-size: 0.8888em;
+}
+.header-contact{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-contact .contact-block{
+    border-left: 1px solid rgba(0,0,0,0.1);
+    padding-left: 75px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+.header-contact .contact-block > svg{
+   height: 50%;
+    width: 10%;
+    left: 15%;
+    position: absolute;
+    float: left;
+  
+    top: 60%;
+    transform: translateY(-50%);
+    color: #999596;
+}
+.header-contact .contact-block:first-child{
+    border-left: none;
+}
+.header-contact .contact-block .content {
+    margin: 0;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-color);
+}
+.header-contact .contact-block .content a{
+    color: var(--text-color);
+
+}
+.contact-block span{
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #999596;
+}
+.contact-block a{
+	font-weight:600;
+    color: #5e5a5a;
+}
+/*  */
+.nav-wrap{
+	background: #0b6e0b;
+}
+.nav-wrap li a{
+	font-weight:600;
+
+}
+#navbarNavDropdown{
+	justify-content: space-between;
+}
+.navbar-nav .nav-item a{
+    color: #ffff;
+}
+.navbar-nav .nav-item{
+    font-size:1em !important;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.nav-wrap li a:hover{
+    border-bottom: solid 2px #89b28197 !important;
+    margin-top:none;
+        
+    }
+    .nav-wrap li a:active{
+        border-bottom: solid 2px #89b28197 !important;
+        margin-top:none;
+            
+        }
+.navbar-nav form{
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 5px;
+}
+.nav-item .nav-link{
+    color: #ffff !important;
+}
+
+.nav-item .dropdown-menu a{
+
+color: black;
+    font-size: 15px;
+	font-size:1em !important;
+
+}
+.input-group{
+    display: flex;
+    flex-wrap:nowrap !important;
+
+}
+#main-search .input-s {
+    padding: 0 15px;
+    border: 0;
+    background: transparent;
+    font: italic 13px/38px tahoma;
+}
+.field-no-border{
+    border: 0;
+    background-color: #9CBE9C;
+}
+
+.fa-search{
+    color:#fff;
+}
+/* ================ */
+.dropdown-item:hover{
+	border-left:solid 4px green;
+}
